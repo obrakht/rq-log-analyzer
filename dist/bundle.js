@@ -21726,7 +21726,7 @@ var Main = function (_React$Component) {
           { className: 'upload-form', action: '', formMethod: 'post', formEncType: 'multipart/form-data' },
           _react2.default.createElement(
             'label',
-            { className: 'upload-form__label' },
+            { className: 'upload-form__label', id: 'upload-form-label' },
             _react2.default.createElement('input', { className: 'upload-form__input', type: 'file', defaultValue: '', name: 'log-file' })
           )
         )

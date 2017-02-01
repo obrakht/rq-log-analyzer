@@ -6,8 +6,8 @@ var path = require('path'),
 module.exports = {
     context: srcPath,
     entry: {
-        bundle: path.join(srcPath, 'js', 'client.js'),
-        styles: path.join(srcPath, 'scss', 'entry.scss')
+        bundle: path.join(srcPath, 'js', 'root.js'),
+        styles: path.join(srcPath, 'scss', 'root.scss')
     },
     output: {
         path: buildPath,

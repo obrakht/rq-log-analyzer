@@ -1,7 +1,29 @@
+@charset "UTF-8";
 body {
-  padding: 200px; }
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1; }
 
 .upload-form {
   margin: 20px; }
+  .upload-form__label {
+    background: #a3a3a3;
+    cursor: pointer;
+    display: block;
+    height: 300px;
+    position: relative;
+    width: 300px; }
+    .upload-form__label:before {
+      color: #ffffff;
+      content: '\41F\435\440\435\442\430\449\438\442\435   \444\430\439\43B   \43B\43E\433\430   \441\44E\434\430   \438\43B\438   \43A\43B\438\43A\43D\435\442\435   \434\43B\44F   \432\44B\431\43E\440\430';
+      height: 100px;
+      left: 50%;
+      margin: -50px 0 0 -75px;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      width: 150px; }
+  .upload-form__input {
+    display: none; }
 
 /*# sourceMappingURL=styles.css.map*/

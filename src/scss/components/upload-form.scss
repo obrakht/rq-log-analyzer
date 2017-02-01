@@ -1,3 +1,28 @@
 .upload-form {
-    margin: 20px;
+    margin: 20px;    
+
+    &__label {
+        background: #a3a3a3;
+        cursor: pointer;
+        display: block;
+        height: 300px;
+        position: relative;
+        width: 300px;
+
+        &:before {
+            color: #ffffff;            
+            content: 'Перетащите файл лога сюда или кликнете для выбора';
+            height: 100px;
+            left: 50%;
+            margin: -50px 0 0 -75px;
+            position: absolute;
+            text-align: center;
+            top: 50%;
+            width: 150px;
+        }
+    }
+
+    &__input {
+        display: none;
+    }
 }
